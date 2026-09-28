@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds the repository's starter craft models from boxes and prisms.
 
-The models are original work by the Overhead project, released under CC0, and
+The models are original work by the Here Above project, released under CC0, and
 exist so every domain has something better than the app's built-in floor
 until someone contributes a real model. They also show the conventions a GLB
 must follow: Y up, the direction of travel along -Z, flat colours in each
@@ -96,7 +96,7 @@ class Mesh:
                                "material": len(materials) - 1, "mode": 4})
 
         document = {
-            "asset": {"version": "2.0", "generator": "overhead-content starter_models.py"},
+            "asset": {"version": "2.0", "generator": "hereabove-content starter_models.py"},
             "scene": 0, "scenes": [{"nodes": [0]}], "nodes": [{"mesh": 0}],
             "meshes": [{"primitives": primitives}], "materials": materials,
             "accessors": accessors, "bufferViews": views, "buffers": [{"byteLength": len(binary)}],

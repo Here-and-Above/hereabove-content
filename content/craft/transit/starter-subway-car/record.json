@@ -21,13 +21,13 @@
     "id": "model",
     "path": "model.glb",
     "required": true,
-    "sha256": "549205032f75ccc634253f624f4727676aeae194028a8fcf2cc6c594cc22c170"
+    "sha256": "6d08649790bbfcda427b8bbd7334cabb3541eed3d307e2d726c6d741c24e6091"
   },
   "name": "Subway car (starter)",
   "provenance": {
-    "attribution": "Subway car (starter), original work by the Overhead project",
+    "attribution": "Subway car (starter), original work by the Here Above project",
     "sources": [
-      "https://github.com/purplecones/overhead-content/tree/main/content/craft/transit/starter-subway-car"
+      "https://github.com/purplecones/hereabove-content/tree/main/content/craft/transit/starter-subway-car"
     ]
   }
 }

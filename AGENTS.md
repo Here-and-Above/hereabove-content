@@ -1,6 +1,6 @@
-# Overhead content: instructions for coding agents
+# Here Above content: instructions for coding agents
 
-You are working in `purplecones/overhead-content`, the content repository the Overhead iOS app fetches at launch.
+You are working in `purplecones/hereabove-content`, the content repository the Here Above iOS app fetches at launch.
 People contribute by opening pull requests here; nothing in this repository is code that ships in the app.
 Your job is to add or change one entry correctly, prove it with the validator, and open a pull request a reviewer can merge without asking questions.
 
@@ -51,7 +51,7 @@ The order of ids under `bodies` is the on-screen order; never sort that array.
    `validate.py` prints `path: problem`; fix each one and rerun until it prints nothing and exits 0.
 5. Write the entry's `README.md`: what it is, each source as a link, the licence, and the attribution the licence requires.
 6. Commit with a message such as `feat(bodies): add Ceres` and open a pull request using the template.
-   For a body, tell the person how to test it on their phone before the review: open `overhead://content?source=https://github.com/<owner>/overhead-content/tree/<branch>` on the phone, or paste that GitHub URL under Options, Content.
+   For a body, tell the person how to test it on their phone before the review: open `hereabove://content?source=https://github.com/<owner>/hereabove-content/tree/<branch>` on the phone, or paste that GitHub URL under Options, Content.
    The app reads bodies, events and craft, so a phone preview shows all three; satellite models are admitted but not drawn yet.
 
 One entry per pull request unless the entries only make sense together.

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/purplecones/overhead-content/main/schema/craft.schema.json",
+  "$id": "https://raw.githubusercontent.com/purplecones/hereabove-content/main/schema/craft.schema.json",
   "title": "Craft record",
   "description": "content/craft/<domain>/<id>/record.json: a 3D model for aircraft, vessels, satellites or transit vehicles, matched by class and optionally by specific type. docs/craft.md is the field reference; scripts/validate.py checks the per-domain class ids, type patterns, and the GLB itself.",
   "type": "object",

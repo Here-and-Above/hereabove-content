@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/purplecones/overhead-content/main/schema/solar-eclipse.schema.json",
+  "$id": "https://raw.githubusercontent.com/purplecones/hereabove-content/main/schema/solar-eclipse.schema.json",
   "title": "Solar eclipse record",
   "description": "content/events/solar-eclipses/<id>/record.json. The repository decides which eclipses the app lists; the app computes every drawn time and position itself and admits a record only if its own eclipse lands within 10 minutes of `greatest` with a matching type. docs/events.md is the field reference.",
   "type": "object",

@@ -19,13 +19,13 @@
     "id": "model",
     "path": "model.glb",
     "required": true,
-    "sha256": "73f744df98f0b6b809be8540816a1577e9232370554c6d3060ce61fb0690d13a"
+    "sha256": "d62f4bf14878b9fa319d9bd834dd88adbca125863eaea43dd3de0048c10648f6"
   },
   "name": "City bus (starter)",
   "provenance": {
-    "attribution": "City bus (starter), original work by the Overhead project",
+    "attribution": "City bus (starter), original work by the Here Above project",
     "sources": [
-      "https://github.com/purplecones/overhead-content/tree/main/content/craft/transit/starter-bus"
+      "https://github.com/purplecones/hereabove-content/tree/main/content/craft/transit/starter-bus"
     ]
   }
 }

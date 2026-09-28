@@ -18,4 +18,4 @@ $ python3 scripts/validate.py content
 <!-- paste the output; validate.py prints nothing and exits 0 when clean, stamp.py --check reports the record count and exits 0 when nothing is stale -->
 ```
 
-- [ ] Tested on a phone by pointing Overhead at this branch, or explain why not:
+- [ ] Tested on a phone by pointing Here Above at this branch, or explain why not:
