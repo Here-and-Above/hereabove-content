@@ -1,9 +1,9 @@
-# Overhead content
+# Here Above content
 
-Community content for Overhead, a native iOS aircraft, vessel and sky viewer.
+Community content for Here Above, a native iOS aircraft, vessel and sky viewer.
 
 This repository is the catalogue the app reads.
-Adding a planet, a moon, an asteroid or a spacecraft to Overhead means opening a pull request here, not shipping a new build of the app.
+Adding a planet, a moon, an asteroid or a spacecraft to Here Above means opening a pull request here, not shipping a new build of the app.
 The app fetches the latest release of this repository, so merged content reaches people when a release is cut, without an App Store release.
 
 ## What is here
@@ -53,7 +53,7 @@ You do not need to build the app.
 The app previews bodies, events and craft models; satellite models are admitted but not drawn yet.
 Fork this repository, push your branch, and point the app at it: paste your fork, branch or pull request URL under Options, Content, or open this link on the phone:
 
-    overhead://content?source=https://github.com/<owner>/overhead-content/tree/<branch>
+    hereabove://content?source=https://github.com/<owner>/hereabove-content/tree/<branch>
 
 The catalogue reloads in the running session, and anything the app could not show is listed there with the reason.
 Tap "Return to official content" when you are done; updating the app does this too.

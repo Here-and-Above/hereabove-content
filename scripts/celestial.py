@@ -4,7 +4,7 @@ reach the same verdict.
 Shipped app builds reject a whole package when any body record fails
 admission, so a record that passes here but fails there removes every
 contributed body for every user. Each function names the Swift it mirrors in
-the Overhead app repository (ios/Overhead/Celestial/). Only finiteness and
+the Here Above app repository (ios/Overhead/Celestial/). Only finiteness and
 range outcomes matter here, never the positions themselves, but the formulas
 are copied term for term so the overflow and range edges agree.
 

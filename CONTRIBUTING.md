@@ -36,7 +36,7 @@ You still read the result, test it on your phone, and sign the pull request.
    Run `python3 scripts/stamp.py content`, then `python3 scripts/validate.py content`, and fix everything it prints.
    Continuous integration runs the same two commands on your pull request.
 
-6. **Test it in the app** by pointing Overhead at your fork or branch. See the README.
+6. **Test it in the app** by pointing Here Above at your fork or branch. See the README.
    Current app builds fail every body at once when one body record breaks a rule, so do not open a pull request for a body until `validate.py` is clean.
 
 7. **Open the pull request.** Describe where each number and each asset came from.

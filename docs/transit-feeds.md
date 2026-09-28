@@ -3,7 +3,7 @@
 Schema version 1.
 
 A transit feed record is a single JSON object at `content/transit-feeds/<id>/record.json`, with a `README.md` beside it naming the agency's terms.
-The same rules are checked by `lib/transit/record.js` in the Overhead repository, the ingest's validator.
+The same rules are checked by `lib/transit/record.js` in the Here Above app repository, the ingest's validator.
 That validator is authoritative; this document mirrors it.
 
 ## Identity
