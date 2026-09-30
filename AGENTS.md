@@ -1,6 +1,6 @@
 # Here Above content: instructions for coding agents
 
-You are working in `purplecones/hereabove-content`, the content repository the Here Above iOS app fetches at launch.
+You are working in `Here-and-Above/hereabove-content`, the content repository the Here Above iOS app fetches at launch.
 People contribute by opening pull requests here; nothing in this repository is code that ships in the app.
 Your job is to add or change one entry correctly, prove it with the validator, and open a pull request a reviewer can merge without asking questions.
 
