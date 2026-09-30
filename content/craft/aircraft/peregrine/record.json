@@ -14,12 +14,12 @@
     "types": []
   },
   "model": {
-    "byteLimit": 608860,
+    "byteLimit": 608864,
     "format": "glb",
     "id": "model",
     "path": "model.glb",
     "required": true,
-    "sha256": "e0c8a429fad4be74c326f85b7a9f5825a5d79cb65dcad125ea14b58b615ce8f4"
+    "sha256": "7baeb84f9b0f720710b4d216f54144e1c50cd565cb8848873f5a34ffa95fba4f"
   },
   "name": "OH-01 Peregrine",
   "provenance": {
