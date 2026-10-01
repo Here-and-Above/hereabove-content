@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/purplecones/hereabove-content/main/schema/index.schema.json",
+  "$id": "https://raw.githubusercontent.com/Here-and-Above/hereabove-content/main/schema/index.schema.json",
   "title": "Content index",
   "description": "content/index.json. Kinds are keyed by their folder path; each value is the ordered list of entry ids under content/<kind>/. The app decodes this as {string: [string]}, so a nested object here breaks every shipped build.",
   "type": "object",

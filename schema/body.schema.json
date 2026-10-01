@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/purplecones/hereabove-content/main/schema/body.schema.json",
+  "$id": "https://raw.githubusercontent.com/Here-and-Above/hereabove-content/main/schema/body.schema.json",
   "title": "Body record",
   "description": "content/bodies/<id>/record.json. Mirrors the required keys and per-model shapes of CelestialCatalogueRecord in the app's CelestialCatalogueRecords.swift, so a record that passes here decodes there. Bounds below mirror the app's admission (CelestialCatalogue.swift); the rules a schema cannot express (radii against presentation, validity windows, orbit and rotation evaluation, cross-record ids and parents) are in scripts/validate.py. docs/schema.md is the field reference.",
   "type": "object",

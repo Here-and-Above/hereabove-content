@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/purplecones/hereabove-content/main/schema/transit-feed.schema.json",
+  "$id": "https://raw.githubusercontent.com/Here-and-Above/hereabove-content/main/schema/transit-feed.schema.json",
   "title": "Transit feed record",
   "description": "Structural check for content/transit-feeds/<id>/record.json, mirroring lib/transit/record.js in the Here Above app repository. That validator is authoritative and is what the Worker, the pack build, npm run transit:try, and the tests all run; a record that passes this schema can still be rejected there. This schema cannot express: id must equal its directory name; coverage.minLat < coverage.maxLat and coverage.minLon < coverage.maxLon, with a span of at most 10 degrees each way; a gps record needs at least one realtime.vehiclePositions URL, and a predicted record needs at least one realtime.tripUpdates URL; a key names exactly one of query or header; a key.secret must actually exist as a Worker secret to be usable; and text fields reject a value that is only whitespace.",
   "type": "object",
